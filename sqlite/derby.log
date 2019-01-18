@@ -1,0 +1,31 @@
+Fri Feb 16 11:40:01 EET 2018 : Apache Derby Network Server - 10.11.1.2 - (1629631) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Fri Feb 16 11:40:02 EET 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0161-9dfc-2058-ffffc30b0980 
+on database directory C:\Users\Niko\Documents\NetBeansProjects\Yrityspeli\Yrityspeli\sqlite\YP with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_121/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_121-b13
+user.dir=C:\Program Files\Java\jdk1.8.0_121\db
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\Niko\Documents\NetBeansProjects\Yrityspeli\Yrityspeli\sqlite
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Feb 16 13:03:54 EET 2018:
+Shutting down instance a816c00e-0161-9dfc-2058-ffffc30b0980 on database directory C:\Users\Niko\Documents\NetBeansProjects\Yrityspeli\Yrityspeli\sqlite\YP with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Fri Feb 16 13:03:54 EET 2018 Thread[DRDAConnThread_2,5,main] (DATABASE = YP), (DRDAID = {3}), Database 'YP' shutdown.
+----------------------------------------------------------------
+Fri Feb 16 13:04:18 EET 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance 3988c0be-0161-9dfc-2058-ffffc30b0980 
+on database directory C:\Users\Niko\Documents\NetBeansProjects\Yrityspeli\Yrityspeli\sqlite\YP01 with class loader sun.misc.Launcher$AppClassLoader@6f94fa3e 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_121/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_121-b13
+user.dir=C:\Program Files\Java\jdk1.8.0_121\db
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=C:\Users\Niko\Documents\NetBeansProjects\Yrityspeli\Yrityspeli\sqlite
+Database Class Loader started - derby.database.classpath=''

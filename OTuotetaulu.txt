@@ -1,0 +1,38 @@
+create table pelaajat(nimi varchar, slogan varchar, omaisuus decimal,kassa decimal,palkka decimal, ht decimal,kk int,v int,
+ markkinointi decimal,brandi decimal,hyvantekevaisyys decimal, lainat decimal);
+
+Tuote(
+nimi varchar,ostohinta decimal)
+
+PTuote(
+ID int, nimi varchar, hinta decimal,myyntihinta decimal ,maara int)
+
+create table STuote(
+yrnimi varchar,nimi varchar, hinta decimal, myyntihinta decimal, maara int, ika int);
+
+Myyja( 
+nimi varchar ,palkka decimal)
+
+PMyyja( 
+nimi varchar ,palkka decimal)
+
+create table markkinointi(
+markkinointityyppi varchar, hinta decimal);
+
+create table tilastot
+(yrnim varchar, paiva decimal, kassa decimal, tapahtunutmyynti decimal, myyjienpalkat decimal,
+ lainanmaksut decimal, markkinointikulut decimal, tuotteidenostohinta decimal, vesi decimal, sahko decimal,
+ tietoliikenne decimal, vuokra decimal, kuljetus decimal, huolto decimal, omistajanpalkka decimal,taloushallinto decimal, 
+lainankorko decimal, hyvantekevaisuus decimal, palkkojensivukulut decimal,havikki int, lainanpaaoma decimal,
+tuotteidenmaara decimal, tuotteenmyyntihinta decimal, tuotteennimi varchar);
+
+create table TMtilastot 
+(yrnim varchar,paiva decimal,nimi varchar,ostohinta decimal,myyntihinta decimal,ostomaara integer ,maara integer,myyntimaara integer,kysynta integer,palkka decimal);
+
+//PLainat
+//(maara decimal,korko decimal,lainamax decimal,lainaaika decimal);
+ 
+
+
+create table tallennus
+(ID int, pnimi varchar, pslogan varchar, pkassa decimal, pomaisuus decimal, v int, kk int, brandi decimal, plaina decimal, lpvm String);

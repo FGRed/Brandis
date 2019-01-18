@@ -1,0 +1,34 @@
+POstot focus gained
+try {
+	boolean notDecimal = false;
+	System.out.println("PTuote päivittyy POstot jTableen muutetulla arvolla");
+	System.out.println("Focus gained");
+	int rivi = POstot.getSelectedRow();
+												
+	try{
+	Double.parseDouble(POstot.getValueAt(rivi, 3).toString());	
+															
+	jd.putData("update PTuote set myyntihinta = "+POstot.getValueAt(rivi, 3)+" where nimi='"+POstot.getValueAt(rivi, 0)+"'");
+             System.out.println(POstot.getValueAt(rivi, 3).toString());
+	}
+	catch(Exception e){
+																	POstot.setValueAt(0.0, rivi, 3);
+												}
+	
+												paivita();
+                                                                                                
+												
+							} catch (ClassNotFoundException ex) {
+												Logger.getLogger(j3_Paaikkuna.class.getName()).log(Level.SEVERE, null, ex);
+							} catch (SQLException ex) {
+												Logger.getLogger(j3_Paaikkuna.class.getName()).log(Level.SEVERE, null, ex);
+							}
+/////////////////////////////
+POs.tot pressed
+   DefaultTableModel model = (DefaultTableModel)POstot.getModel();
+        int col = 3;
+        int row = POstot.getSelectedRow();
+        
+        if(POstot.getSelectedRow() == row && POstot.getSelectedColumn() == col){
+            Nappaimisto2.setEnabled(true);
+        }
